@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <form action="tabel.html" method="GET">
+        <fieldset>
+            <legend>Pendaftaran</legend>
+            <p>
+                <label>Nama Lengkap :</label>
+                <input type="text" name="nama"/>
+            </p>
+            <p>
+                <label>Tempat Lahir :</label>
+                <input type="text" name="tempat"/>
+            </p>
+            <p>
+                <label>Tanggal Lahir :</label>
+                <input type="date" name="tanggal" />
+            </p>
+            <p>
+                <label>Alamat :</label>
+                <textarea name="alamat"></textarea>
+            </p>
+            <p>
+                <label>Email :</label>
+                <input type="email" name="email"/>
+            </p>
+            <p>
+                <label>Jenis Kelamin :</label>
+                <label><input type="checkbox" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                <label><input type="checkbox" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+            </p>
+            <p>
+                <label>Agama :</label>
+                <select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" name="submit" />
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
